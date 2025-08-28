@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice-PO Matcher</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🧾 Invoice-PO Matcher</h1>
+            <p>Agentic RAG System for Invoice Processing</p>
+        </header>
+        
+        <div class="chat-container">
+            <div id="chat-messages" class="chat-messages"></div>
+            
+            <div class="input-container">
+                <input type="text" id="query-input" placeholder="Ask about an invoice (e.g., 'Why was invoice INV-123 flagged?')" />
+                <button id="send-button">Send</button>
+            </div>
+            
+            <div class="quick-actions">
+                <button class="quick-btn" data-query="Why was invoice INV-123 flagged?">
+                    🚩 Check INV-123
+                </button>
+                <button class="quick-btn" data-query="Show me all flagged invoices">
+                    📋 All Flagged
+                </button>
+                <button class="quick-btn" data-query="Approve invoice INV-123">
+                    ✅ Approve INV-123
+                </button>
+            </div>
+        </div>
+        
+        <div class="sidebar">
+            <h3>Audit Trail</h3>
+            <div id="audit-log" class="audit-log"></div>
+            
+            <h3>System Status</h3>
+            <div class="status-panel">
+                <div class="status-item">
+                    <span class="status-label">Agents:</span>
+                    <span class="status-value">5 Active</span>
+                </div>
+                <div class="status-item">
+                    <span class="status-label">Session:</span>
+                    <span id="session-id" class="status-value">Not Started</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,3 +1,0 @@
-invoice_id,po_number,item,quantity,unit_price,amount
-INV-123,PO-1001,Widget A,10,12.00,120.00
-INV-999,PO-1002,Widget B,5,20.00,100.00

@@ -1,0 +1,55 @@
+[
+    {
+        "id": "INV-123",
+        "invoice_id": "INV-123",
+        "vendor": "Acme Corp",
+        "date": "2024-02-15",
+        "po_reference": "PO-456",
+        "total_amount": 1500.00,
+        "line_items": [
+            {
+                "description": "Office Supplies",
+                "quantity": 10,
+                "unit_price": 150.00,
+                "total": 1500.00
+            }
+        ],
+        "status": "flagged",
+        "flag_reason": "Amount exceeds PO by 10%"
+    },
+    {
+        "id": "INV-124",
+        "invoice_id": "INV-124",
+        "vendor": "Tech Solutions Inc",
+        "date": "2024-02-16",
+        "po_reference": "PO-457",
+        "total_amount": 2500.00,
+        "line_items": [
+            {
+                "description": "Software License",
+                "quantity": 1,
+                "unit_price": 2500.00,
+                "total": 2500.00
+            }
+        ],
+        "status": "approved"
+    },
+    {
+        "id": "INV-125",
+        "invoice_id": "INV-125",
+        "vendor": "Suspicious Vendor LLC",
+        "date": "2024-02-17",
+        "po_reference": "PO-458",
+        "total_amount": 5000.00,
+        "line_items": [
+            {
+                "description": "Consulting Services",
+                "quantity": 1,
+                "unit_price": 5000.00,
+                "total": 5000.00
+            }
+        ],
+        "status": "flagged",
+        "flag_reason": "High-risk vendor flagged for manual review"
+    }
+]

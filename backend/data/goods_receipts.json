@@ -1,0 +1,28 @@
+[
+    {
+        "id": "GR-789",
+        "po_reference": "PO-456",
+        "date": "2024-02-14",
+        "received_items": [
+            {
+                "description": "Office Supplies",
+                "quantity_received": 9,
+                "quantity_ordered": 9,
+                "condition": "good"
+            }
+        ]
+    },
+    {
+        "id": "GR-790",
+        "po_reference": "PO-457",
+        "date": "2024-02-15",
+        "received_items": [
+            {
+                "description": "Software License",
+                "quantity_received": 1,
+                "quantity_ordered": 1,
+                "condition": "good"
+            }
+        ]
+    }
+]
